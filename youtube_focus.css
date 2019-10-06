@@ -1,0 +1,27 @@
+*[page-subtype~="home"]{
+    display: none !important;
+}
+
+*[href~="/feed/trending"]{
+    display: none !important;
+}
+
+.ytp-endscreen-content{
+	display: none !important;
+}
+
+/*#related{
+	display: none !important;
+}
+*/
+
+#comments{
+	display: none !important;
+}
+
+#related #contents,
+#related #upnext,
+#related ytd-compact-video-renderer,
+#related ytd-compact-playlist-renderer{
+	display: none !important;
+}
