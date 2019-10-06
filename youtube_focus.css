@@ -22,6 +22,7 @@
 #related #contents,
 #related #upnext,
 #related ytd-compact-video-renderer,
-#related ytd-compact-playlist-renderer{
+#related ytd-compact-playlist-renderer,
+#related ytd-compact-radio-renderer{
 	display: none !important;
 }
