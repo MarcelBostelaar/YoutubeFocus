@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "YoutubeFocus",
-  "version": "1.1.1",
+  "version": "1.2",
 
   "description": "Makes youtube more focused by hiding all suggested content and comments.",
 

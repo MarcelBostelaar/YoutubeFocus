@@ -2,18 +2,13 @@
     display: none !important;
 }
 
-*[href~="/feed/trending"]{
+*[href*="/feed/trending"]{
     display: none !important;
 }
 
 .ytp-endscreen-content{
 	display: none !important;
 }
-
-/*#related{
-	display: none !important;
-}
-*/
 
 #comments{
 	display: none !important;
@@ -23,6 +18,9 @@
 #related #upnext,
 #related ytd-compact-video-renderer,
 #related ytd-compact-playlist-renderer,
-#related ytd-compact-radio-renderer{
+#related ytd-compact-radio-renderer,
+.watch-sidebar-body, /*polymer off*/
+.comment-section-renderer,
+#feed-main-what_to_watch{
 	display: none !important;
 }
